@@ -4,7 +4,6 @@ $q="SELECT * FROM artefactos WHERE tipo='celular'";
 $re=mysql_query($q,$con);
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +12,6 @@ $re=mysql_query($q,$con);
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Company-HTML Bootstrap theme</title>
 
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
